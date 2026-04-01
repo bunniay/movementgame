@@ -301,7 +301,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 43
+    y: 0
     width: 1920
     height: 36
   m_SerializedDataModeController:
@@ -566,8 +566,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 314
-    y: 79
+    x: 315
+    y: 24
     width: 1243
     height: 657
   m_SerializedDataModeController:
@@ -1149,11 +1149,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.06563761, y: -0.10181742, z: 0.006524449, w: -0.9927443}
     speed: 2
-    m_Value: {x: -0.06411081, y: -0.10628008, z: 0.006659375, w: -0.99224496}
+    m_Value: {x: -0.06563761, y: -0.10181742, z: 0.006524449, w: -0.9927443}
   m_Size:
     m_Target: 698.13055
     speed: 2
-    m_Value: 698.1305
+    m_Value: 698.13055
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1209,7 +1209,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 79
+    y: 24
     width: 313
     height: 657
   m_SerializedDataModeController:
@@ -1265,8 +1265,8 @@ MonoBehaviour:
       - m_Data: 59958
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Canvas
-        m_OriginalName: Canvas
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
@@ -1274,10 +1274,10 @@ MonoBehaviour:
           width: 0
           height: 0
         m_UserData:
-          m_Data: 59898
+          m_Data: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 8}
@@ -1414,7 +1414,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 762
+    y: 707
     width: 1558
     height: 224
   m_SerializedDataModeController:
@@ -1465,8 +1465,7 @@ MonoBehaviour:
       m_Data: 49518
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 49202
-    - m_Data: 1000000000
+    - m_Data: 49158
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1500,7 +1499,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 49202
+    - m_Data: 49158
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1622,8 +1621,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1559
-    y: 79
+    x: 1560
+    y: 24
     width: 360
     height: 907
   m_SerializedDataModeController:
