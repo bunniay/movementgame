@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody))]
 public class PlayerController : MonoBehaviour
@@ -37,16 +38,35 @@ public class PlayerController : MonoBehaviour
     void TryGlide()
     {
         Ray ray = new Ray(playerCamera.transform.position,
-                          playerCamera.transform.forward);
+                        playerCamera.transform.forward);
 
         if (Physics.Raycast(ray, out RaycastHit hit, maxInteractDistance, raycastMask))
         {
+            // 골 포인트 클릭 시 다음 스테이지
+            if (hit.collider.CompareTag("GoalPoint"))
+            {
+                LoadNextStage();
+                return;
+            }
+
+            // 기존 글라이딩
             if (hit.collider.CompareTag(targetTag))
             {
                 StartCoroutine(GlideTo(hit.collider.transform.position));
             }
         }
     }
+
+void LoadNextStage()
+{
+    int current = SceneManager.GetActiveScene().buildIndex;
+    int next = current + 1;
+
+    if (next < SceneManager.sceneCountInBuildSettings)
+        SceneManager.LoadScene(next);
+    else
+        SceneManager.LoadScene("GameClear"); // 마지막 스테이지면 클리어 씬으로
+}
 
     IEnumerator GlideTo(Vector3 targetPos)
     {

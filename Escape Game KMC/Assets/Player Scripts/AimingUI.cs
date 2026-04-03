@@ -10,24 +10,25 @@ public class AimingUI : MonoBehaviour
 
     void Update()
     {
+        if (player == null || player.playerCamera == null) return;
 
         Ray ray = new Ray(player.playerCamera.transform.position,
-                          player.playerCamera.transform.forward);
+                        player.playerCamera.transform.forward);
 
-        Debug.DrawRay(ray.origin, ray.direction * player.maxInteractDistance,
-                      Color.red); 
+        Debug.DrawRay(ray.origin, ray.direction * player.maxInteractDistance, Color.red);
 
         bool hit = Physics.Raycast(ray, out RaycastHit hitInfo,
-                                   player.maxInteractDistance,
-                                   player.raycastMask);
+                                    player.maxInteractDistance,
+                                    player.raycastMask);
 
-        if (hit)
-        {
-            Debug.Log("Raycast hit: " + hitInfo.collider.name
-                      + " / Tag: " + hitInfo.collider.tag);
-        }
+        bool isInteractable = hit && hitInfo.collider.CompareTag(player.targetTag);
+        bool isGoal         = hit && hitInfo.collider.CompareTag("GoalPoint");
 
-        bool isTarget = hit && hitInfo.collider.CompareTag(player.targetTag);
-        crosshairImage.color = isTarget ? highlightColor : normalColor;
+        if (isGoal)
+            crosshairImage.color = Color.green;       
+        else if (isInteractable)
+            crosshairImage.color = highlightColor;   
+        else
+            crosshairImage.color = normalColor;     
     }
 }
