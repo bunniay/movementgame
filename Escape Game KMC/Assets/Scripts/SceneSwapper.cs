@@ -3,6 +3,14 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwapper : MonoBehaviour
 {
+    void Start()
+    {
+        //Unlock the cursor so it can move freely
+        Cursor.lockState = CursorLockMode.None;
+
+        // Make the cursor visible again
+        Cursor.visible = true;
+    }
     // Call this method from your UI Button's OnClick event
     public void OnRetryClicked()
     {
