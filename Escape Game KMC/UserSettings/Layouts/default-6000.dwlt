@@ -377,8 +377,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Build Profiles\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 368
-    y: 120
+    x: 0
+    y: 26
     width: 725
     height: 552
   m_SerializedDataModeController:
@@ -435,7 +435,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_LastSelectedObjectID:
-    m_Data: -64730
+    m_Data: 0
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -457,8 +457,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "UnityEditor.MainToolbarWindow\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 85
-    y: 66
+    x: 0
+    y: 0
     width: 1643
     height: 36
   m_SerializedDataModeController:
@@ -723,8 +723,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Hierarchy\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 85
-    y: 102
+    x: 0
+    y: 24
     width: 268.5
     height: 583
   m_SerializedDataModeController:
@@ -929,8 +929,8 @@ MonoBehaviour:
       - m_Data: 153652
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Image
-        m_OriginalName: Image
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
@@ -938,10 +938,10 @@ MonoBehaviour:
           width: 0
           height: 0
         m_UserData:
-          m_Data: -71352
+          m_Data: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 4
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 11}
@@ -974,8 +974,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 354.5
-    y: 102
+    x: 270.5
+    y: 24
     width: 1060.5
     height: 583
   m_SerializedDataModeController:
@@ -1557,11 +1557,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.0014814436, y: 0.1568495, z: 0.00023526691, w: 0.9876213}
     speed: 2
-    m_Value: {x: -0.0014814438, y: 0.15684952, z: 0.00023526693, w: 0.98762137}
+    m_Value: {x: 0.0014814435, y: -0.15684949, z: -0.0002352669, w: -0.98762125}
   m_Size:
     m_Target: 405.48965
     speed: 2
-    m_Value: 405.18576
+    m_Value: 405.48965
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1793,8 +1793,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 85
-    y: 711
+    x: 0
+    y: 633
     width: 1331
     height: 250
   m_SerializedDataModeController:
@@ -1845,13 +1845,11 @@ MonoBehaviour:
       m_Data: 49710
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 49708
-    - m_Data: 49710
-    - m_Data: 49712
-    - m_Data: 49714
-    - m_Data: 49716
-    - m_Data: 1000000000
-    - m_Data: 2147483647
+    - m_Data: 49480
+    - m_Data: 49482
+    - m_Data: 49484
+    - m_Data: 49486
+    - m_Data: 49488
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1885,11 +1883,11 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 49708
-    - m_Data: 49710
-    - m_Data: 49712
-    - m_Data: 49714
-    - m_Data: 49716
+    - m_Data: 49480
+    - m_Data: 49482
+    - m_Data: 49484
+    - m_Data: 49486
+    - m_Data: 49488
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2019,8 +2017,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1417
-    y: 102
+    x: 1333
+    y: 24
     width: 310
     height: 859
   m_SerializedDataModeController:

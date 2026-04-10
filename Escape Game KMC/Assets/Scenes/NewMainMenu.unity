@@ -2033,9 +2033,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 159439410}
-        m_TargetAssemblyTypeName: Stage1, Assembly-CSharp
-        m_MethodName: StartStage1
+      - m_Target: {fileID: 159439411}
+        m_TargetAssemblyTypeName: TutorialButton, Assembly-CSharp
+        m_MethodName: StartTutorial
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
