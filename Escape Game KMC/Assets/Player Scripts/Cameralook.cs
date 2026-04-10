@@ -17,14 +17,17 @@ public class Cameralook : MonoBehaviour
 
     void Start()
     {
+        Application.targetFrameRate = 60;
+        
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
 
     void Update()
     {
-        float mouseX = Mouse.current.delta.x.ReadValue() * sensitivityX;
-        float mouseY = Mouse.current.delta.y.ReadValue() * sensitivityY;
+
+        float mouseX = Mouse.current.delta.x.ReadValue() * sensitivityX * Time.deltaTime;
+        float mouseY = Mouse.current.delta.y.ReadValue() * sensitivityY * Time.deltaTime;
 
         rotationX -= mouseY;
         rotationX = Mathf.Clamp(rotationX, minY, maxY);

@@ -2379,8 +2379,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e073d644e5335432c8356ae3baa4aa94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Cameralook
-  sensitivityX: 2
-  sensitivityY: 2
+  sensitivityX: 20
+  sensitivityY: 20
   minY: -80
   maxY: 80
   playerBody: {fileID: 844014738}
@@ -2878,7 +2878,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
