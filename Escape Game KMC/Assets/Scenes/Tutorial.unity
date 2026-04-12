@@ -12164,6 +12164,14 @@ PrefabInstance:
       propertyPath: maxInteractDistance
       value: 18
       objectReference: {fileID: 0}
+    - target: {fileID: 1337357777447135060, guid: 9a48bcadf30874db1b1b8de5428ca2ae, type: 3}
+      propertyPath: sensitivityX
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337357777447135060, guid: 9a48bcadf30874db1b1b8de5428ca2ae, type: 3}
+      propertyPath: sensitivityY
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 1538660066675430850, guid: 9a48bcadf30874db1b1b8de5428ca2ae, type: 3}
       propertyPath: m_Name
       value: Player

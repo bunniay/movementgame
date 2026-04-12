@@ -42502,7 +42502,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -42770,6 +42770,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1337357777447135060, guid: 9a48bcadf30874db1b1b8de5428ca2ae, type: 3}
+      propertyPath: sensitivityX
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337357777447135060, guid: 9a48bcadf30874db1b1b8de5428ca2ae, type: 3}
+      propertyPath: sensitivityY
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 1538660066675430850, guid: 9a48bcadf30874db1b1b8de5428ca2ae, type: 3}
       propertyPath: m_Name
       value: Player
@@ -42777,6 +42785,10 @@ PrefabInstance:
     - target: {fileID: 1538660066675430850, guid: 9a48bcadf30874db1b1b8de5428ca2ae, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5025776200062231475, guid: 9a48bcadf30874db1b1b8de5428ca2ae, type: 3}
+      propertyPath: m_RenderPostProcessing
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8312104698282615556, guid: 9a48bcadf30874db1b1b8de5428ca2ae, type: 3}
       propertyPath: m_LocalPosition.x
