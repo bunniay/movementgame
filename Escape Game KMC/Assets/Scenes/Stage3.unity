@@ -42770,6 +42770,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 899639470724795061, guid: 9a48bcadf30874db1b1b8de5428ca2ae, type: 3}
+      propertyPath: field of view
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 1337357777447135060, guid: 9a48bcadf30874db1b1b8de5428ca2ae, type: 3}
       propertyPath: sensitivityX
       value: 20
